@@ -1,0 +1,12 @@
+$('.finished-btn').click(function(){
+    $('.current-projects').removeClass('active');
+    $('.finished-projects').addClass('active');
+    $('.finished-btn').addClass('active');
+    $('.current-btn').removeClass('active');
+});
+$('.current-btn').click(function(){
+    $('.finished-projects').removeClass('active');
+    $('.current-projects').addClass('active');
+    $('.current-btn').addClass('active');
+    $('.finished-btn').removeClass('active');
+});
