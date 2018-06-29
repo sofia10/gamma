@@ -1,5 +1,5 @@
 @import "../commons/default";
-@import "../fonts/scss/fonts-en";
+@import "../fonts/scss/fonts-ge";
 body{
   font-size: 14px;
   font-family: $primary-font;
@@ -455,7 +455,7 @@ h4{
       }
     }
     .service-block::-webkit-scrollbar {
-      display: none;
+      display: none; 
     }
     .service-block::-webkit-scrollbar-thumb {
       display: none;
@@ -1072,9 +1072,9 @@ h4{
               }
             }
             a.footer-soc-text{
-              &:hover{
-                opacity: 0.7;
-              }
+             &:hover{
+               opacity: 0.7;
+             }
             }
             @media (max-width: 575px){
               margin: 3px 0;
